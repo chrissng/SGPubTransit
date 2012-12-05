@@ -20,7 +20,7 @@ SGPubTransit is a door-to-door multi-mode public transport mapping and spatiotem
    - Bus stopover time at bus stop is 0.5 min.
 
 - Data sources are correct as at March 2012
-   - Bus route information:			Transitlink
+   - Bus route information:		Transitlink
    - Bus stops and Train stations:	Land Transport Authority 
-   - URA Planning areas:			Urban Redevelopment Authority
+   - URA Planning areas:		Urban Redevelopment Authority
    - Road (Linear features):		OpenStreetMap (Dec 2011)
