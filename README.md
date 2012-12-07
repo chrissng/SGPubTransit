@@ -1,6 +1,10 @@
-SGPubTransit is a door-to-door multi-mode public transport mapping and spatiotemporal analysis dataset for esri ArcGIS. It is aware of all bus, MRT and LRT services in Singapore. Combined with ArcGIS Network Analyst extension, this tool does more than just finding shortest routes. Generating O/D travel cost matrices, determining service areas, analysing spatio-temporal accessibility, and solving the travelling salesman problem are just few of the many possible applications offered by this tool.
+<b>SGPubTransit</b> is a door-to-door multi-mode public transport mapping and spatiotemporal analysis dataset for esri ArcGIS. It is aware of all bus, MRT and LRT services in Singapore. Combined with ArcGIS Network Analyst extension, this tool does more than just finding shortest routes. Generating O/D travel cost matrices, determining service areas, analysing spatio-temporal accessibility, and solving the travelling salesman problem are just few of the many possible applications offered by this tool.
 
 ### Public transport modes ###
+
+<p align="left">
+  <img src="http://transport.frazid.com/img/img04_connectivity.png" width="50%"/>
+</p>
 
 - All SBS and SMRT Bus services
 - North-South MRT Line, East-West MRT Line, North-East MRT Line, Circle MRT Line (and extensions currently U/C)
@@ -15,6 +19,10 @@ SGPubTransit is a door-to-door multi-mode public transport mapping and spatiotem
 - No. of transfers
 
 ### Constraints ###
+
+<p align="left">
+  <img src="http://transport.frazid.com/img/img03_cost.png" width="75%"/>
+</p>
 
 - Transfers are approximated as straight line distances, average walking speed of 5kph.
 - Transfers allowed only among bus stops, interchanges and train stations within 400m.
