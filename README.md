@@ -3,7 +3,7 @@
 ### Public transport modes ###
 
 <p align="left">
-  <img src="http://transport.frazid.com/img/img04_connectivity.png" width="50%"/>
+  <img src="https://s3-ap-southeast-1.amazonaws.com/chrissng/img04_connectivity.png" width="50%"/>
 </p>
 
 - All SBS and SMRT Bus services
@@ -21,7 +21,7 @@
 ### Constraints ###
 
 <p align="left">
-  <img src="http://transport.frazid.com/img/img03_cost.png" width="75%"/>
+  <img src="https://s3-ap-southeast-1.amazonaws.com/chrissng/img03_cost.png" width="75%"/>
 </p>
 
 - Transfers are approximated as straight line distances, average walking speed of 5kph.
