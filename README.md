@@ -1,5 +1,14 @@
 <b>SGPubTransit</b> is a door-to-door multi-mode public transport mapping and spatiotemporal analysis dataset for esri ArcGIS. It is aware of all bus, MRT and LRT services in Singapore. Combined with ArcGIS Network Analyst extension, this tool does more than just finding shortest routes. Generating O/D travel cost matrices, determining service areas, analysing spatio-temporal accessibility, and solving the travelling salesman problem are just few of the many possible applications offered by this tool.
 
+### How is it built with esri ArcMap ###
+
+Detailed here: http://sgtptr.chrissng.net/appendices/02.pdf
+
+### Applications ###
+
+- Identifying redundancy in Singapore's public transport system: http://sgtptr.chrissng.net/
+- Public transit time maps: http://geoseyeview.wordpress.com/2013/10/19/a-visual-update-to-the-public-transit-time-map-from-my-workplace/
+
 ### Public transport modes ###
 
 <p align="left">
