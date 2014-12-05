@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SGPubTransit by chrissng</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>SGPubTransit</h1>
+        <p>a door-to-door multi-mode public transport mapping and spatiotemporal analysis dataset for esri ArcGIS (Singapore public transport)</p>
+
+        <p class="view"><a href="https://github.com/chrissng/SGPubTransit">View the Project on GitHub <small>chrissng/SGPubTransit</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/chrissng/SGPubTransit/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/chrissng/SGPubTransit/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/chrissng/SGPubTransit">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <p><b>SGPubTransit</b> is a door-to-door multi-mode public transport mapping and spatiotemporal analysis dataset for esri ArcGIS. It is aware of all bus, MRT and LRT services in Singapore. Combined with ArcGIS Network Analyst extension, this tool does more than just finding shortest routes. Generating O/D travel cost matrices, determining service areas, analysing spatio-temporal accessibility, and solving the travelling salesman problem are just few of the many possible applications offered by this tool.</p>
+
+<h3>
+<a id="how-is-it-built-with-esri-arcmap" class="anchor" href="#how-is-it-built-with-esri-arcmap" aria-hidden="true"><span class="octicon octicon-link"></span></a>How is it built with esri ArcMap</h3>
+
+<p>Detailed here: <a href="http://sgtptr.chrissng.net/appendices/02.pdf">http://sgtptr.chrissng.net/appendices/02.pdf</a></p>
+
+<h3>
+<a id="applications" class="anchor" href="#applications" aria-hidden="true"><span class="octicon octicon-link"></span></a>Applications</h3>
+
+<ul>
+<li>Identifying redundancy in Singapore's public transport system: <a href="http://sgtptr.chrissng.net/">http://sgtptr.chrissng.net/</a>
+</li>
+<li>Public transit time maps: <a href="http://geoseyeview.wordpress.com/2013/10/19/a-visual-update-to-the-public-transit-time-map-from-my-workplace/">http://geoseyeview.wordpress.com/2013/10/19/a-visual-update-to-the-public-transit-time-map-from-my-workplace/</a>
+</li>
+</ul>
+
+<h3>
+<a id="public-transport-modes" class="anchor" href="#public-transport-modes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Public transport modes</h3>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/chrissng/img04_connectivity.png" alt="connectivity"></p>
+
+<ul>
+<li>All SBS and SMRT Bus services</li>
+<li>North-South MRT Line, East-West MRT Line, North-East MRT Line, Circle MRT Line (and extensions currently U/C)</li>
+<li>Bukit Panjang LRT Line (Svc A, B, and C), Sengkang West LRT Line, Sengkang East LRT Line, Punggol West LRT Line, Punggol East LRT Line</li>
+<li>Sentosa Express</li>
+<li>Future MRT lines (according to media and LTA in 2012): Downtown MRT Line (U/C), Thomson MRT Line (by 2020), Eastern Region Line (by 2020)</li>
+</ul>
+
+<h3>
+<a id="cost-evaluators" class="anchor" href="#cost-evaluators" aria-hidden="true"><span class="octicon octicon-link"></span></a>Cost evaluators</h3>
+
+<ul>
+<li>Travel time</li>
+<li>Travel distance</li>
+<li>No. of transfers</li>
+</ul>
+
+<h3>
+<a id="constraints" class="anchor" href="#constraints" aria-hidden="true"><span class="octicon octicon-link"></span></a>Constraints</h3>
+
+<p><img src="https://s3-ap-southeast-1.amazonaws.com/chrissng/img03_cost.png" alt="cost"></p>
+
+<ul>
+<li>Transfers are approximated as straight line distances, average walking speed of 5kph.</li>
+<li>Transfers allowed only among bus stops, interchanges and train stations within 400m.</li>
+<li>Any transfer to a Bus service incurs a waiting penalty of 12 mins.</li>
+<li>Any transfer to a Train service incurs a waiting penalty of 3 mins.</li>
+<li>Bus travels at an average speed of 20kph on roads and 40kph on expressways.</li>
+<li>Train stopover time at station is 0.2 min.</li>
+<li>Bus stopover time at bus stop is 0.5 min.</li>
+</ul>
+
+<h3>
+<a id="data-sources-are-correct-as-at-march-2012" class="anchor" href="#data-sources-are-correct-as-at-march-2012" aria-hidden="true"><span class="octicon octicon-link"></span></a>Data sources are correct as at March 2012</h3>
+
+<ul>
+<li>Bus route information: Transitlink</li>
+<li>Bus stops and Train stations: Land Transport Authority </li>
+<li>URA Planning areas: Urban Redevelopment Authority</li>
+<li>Road (Linear features): OpenStreetMap (Dec 2011)</li>
+</ul>
+      </section>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/chrissng">chrissng</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    
+  </body>
+</html>
